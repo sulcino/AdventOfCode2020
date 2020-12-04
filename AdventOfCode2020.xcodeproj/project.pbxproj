@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A41D6635257A712800C00910 /* day03.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41D6634257A712800C00910 /* day03.swift */; };
+		A4748725257834ED00DCB35E /* day01.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4748724257834ED00DCB35E /* day01.swift */; };
+		A4748728257852AB00DCB35E /* day02.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4748727257852AB00DCB35E /* day02.swift */; };
 		A4CD5F5F25782D4A00E732FF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CD5F5E25782D4A00E732FF /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +26,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A41D6634257A712800C00910 /* day03.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day03.swift; sourceTree = "<group>"; };
+		A45AFABB2578DE380064A0C1 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		A4748722257834A500DCB35E /* files */ = {isa = PBXFileReference; lastKnownFileType = folder; path = files; sourceTree = "<group>"; };
+		A4748724257834ED00DCB35E /* day01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day01.swift; sourceTree = "<group>"; };
+		A4748727257852AB00DCB35E /* day02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day02.swift; sourceTree = "<group>"; };
 		A4CD5F5B25782D4A00E732FF /* AdventOfCode2020 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AdventOfCode2020; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4CD5F5E25782D4A00E732FF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -41,6 +49,8 @@
 		A4CD5F5225782D4A00E732FF = {
 			isa = PBXGroup;
 			children = (
+				A45AFABB2578DE380064A0C1 /* MyPlayground.playground */,
+				A4748722257834A500DCB35E /* files */,
 				A4CD5F5D25782D4A00E732FF /* AdventOfCode2020 */,
 				A4CD5F5C25782D4A00E732FF /* Products */,
 			);
@@ -58,6 +68,9 @@
 			isa = PBXGroup;
 			children = (
 				A4CD5F5E25782D4A00E732FF /* main.swift */,
+				A4748724257834ED00DCB35E /* day01.swift */,
+				A4748727257852AB00DCB35E /* day02.swift */,
+				A41D6634257A712800C00910 /* day03.swift */,
 			);
 			path = AdventOfCode2020;
 			sourceTree = "<group>";
@@ -72,6 +85,7 @@
 				A4CD5F5725782D4A00E732FF /* Sources */,
 				A4CD5F5825782D4A00E732FF /* Frameworks */,
 				A4CD5F5925782D4A00E732FF /* CopyFiles */,
+				A4CD5F6625782D5A00E732FF /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -114,12 +128,35 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A4CD5F6625782D5A00E732FF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cp ${BUILT_PRODUCTS_DIR}/AdventOfCode2020 ${PROJECT_DIR}/bin\nmv ${PROJECT_DIR}/bin/AdventOfCode2020 ${PROJECT_DIR}/bin/aoc2020\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A4CD5F5725782D4A00E732FF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A4CD5F5F25782D4A00E732FF /* main.swift in Sources */,
+				A4748725257834ED00DCB35E /* day01.swift in Sources */,
+				A4748728257852AB00DCB35E /* day02.swift in Sources */,
+				A41D6635257A712800C00910 /* day03.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
