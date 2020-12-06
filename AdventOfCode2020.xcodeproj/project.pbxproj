@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A41D6635257A712800C00910 /* day03.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41D6634257A712800C00910 /* day03.swift */; };
+		A4379556257C11AF005020EF /* day04.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4379555257C11AF005020EF /* day04.swift */; };
 		A4748725257834ED00DCB35E /* day01.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4748724257834ED00DCB35E /* day01.swift */; };
 		A4748728257852AB00DCB35E /* day02.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4748727257852AB00DCB35E /* day02.swift */; };
 		A4CD5F5F25782D4A00E732FF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CD5F5E25782D4A00E732FF /* main.swift */; };
@@ -27,6 +28,7 @@
 
 /* Begin PBXFileReference section */
 		A41D6634257A712800C00910 /* day03.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day03.swift; sourceTree = "<group>"; };
+		A4379555257C11AF005020EF /* day04.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day04.swift; sourceTree = "<group>"; };
 		A45AFABB2578DE380064A0C1 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		A4748722257834A500DCB35E /* files */ = {isa = PBXFileReference; lastKnownFileType = folder; path = files; sourceTree = "<group>"; };
 		A4748724257834ED00DCB35E /* day01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day01.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 				A4748724257834ED00DCB35E /* day01.swift */,
 				A4748727257852AB00DCB35E /* day02.swift */,
 				A41D6634257A712800C00910 /* day03.swift */,
+				A4379555257C11AF005020EF /* day04.swift */,
 			);
 			path = AdventOfCode2020;
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 				A4CD5F5F25782D4A00E732FF /* main.swift in Sources */,
 				A4748725257834ED00DCB35E /* day01.swift in Sources */,
 				A4748728257852AB00DCB35E /* day02.swift in Sources */,
+				A4379556257C11AF005020EF /* day04.swift in Sources */,
 				A41D6635257A712800C00910 /* day03.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

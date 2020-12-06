@@ -1,6 +1,11 @@
 // import Cocoa
 import Foundation
 
-let s = "ugho bla abraka dabra"
+let str = "ugho"
+let str2 = "bla"
+var dict = ["ugho": "42"]
 
-print(s[s.index(s.startIndex, offsetBy: 3)])
+print(dict[str]!)
+
+dict[str2] = "muhehe"
+print(dict)
