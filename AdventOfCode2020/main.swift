@@ -25,7 +25,7 @@ func run() {
     print(solver.solve2())
   case 4:
     let solver = Day04()
-    print(solver.solve())
+    print(solver.solve2())
   default:
     print("Day not recognized!")
   }
